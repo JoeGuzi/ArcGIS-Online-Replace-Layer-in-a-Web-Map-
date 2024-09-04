@@ -19,3 +19,4 @@ Note: You can use the ArcGIS Online Web Map Services Audit notebook, below, to g
     - You can only replace the layers in a webmap using URLs
     - This new method has a more streamlined approach to handling the order of the layers in the WebMap
     - Thank you Glen!
+- 9/4/24 - Removed pop-up configuration from ReplacmentLayerFLDict
