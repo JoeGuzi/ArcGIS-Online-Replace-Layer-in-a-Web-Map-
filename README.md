@@ -6,9 +6,9 @@ Purpose: This is to streamline the ability to replace layers in webmaps in ArcGI
 
 Authored By: Joe Guzi
 
-Previous Production Date: 7/8/24
+Previous Production Date: 9/4/24
 
-Production Date: 7/18/24
+Production Date: 5/20/25
 
 Note: You can use the ArcGIS Online Web Map Services Audit notebook, below, to get a preview of all of the maps that will be updated by this notebook. Simply run the notebook then filter on the layer you want to replace, and you will have an inventory of all of the maps that will be updated: https://www.arcgis.com/home/item.html?id=72ce7ff61fc5480d850ed68de29f1d9c 
 
@@ -20,3 +20,6 @@ Note: You can use the ArcGIS Online Web Map Services Audit notebook, below, to g
     - This new method has a more streamlined approach to handling the order of the layers in the WebMap
     - Thank you Glen!
 - 9/4/24 - Removed pop-up configuration from ReplacmentLayerFLDict
+- 4/9/25 - Updated for the ArcGIS Python API version 2.4 update
+    - Special thanks to Glen Bambrick for tips on upgrading this notebook to the 2.4 version
+    - This notebook is not set up to handle group layers so be careful.  
